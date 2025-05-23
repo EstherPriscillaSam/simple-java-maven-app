@@ -10,7 +10,7 @@ pool:
   name: PrivateAgent
   demands:
     - agent.name -equals LAPTOP-P6MF1LBB
-  vmImage: ubuntu-latest
+  #vmImage: ubuntu-latest
 
 steps:
 - task: Maven@3
