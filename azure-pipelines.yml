@@ -16,7 +16,7 @@ steps:
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
-    goals: 'clean test'
+    goals: 'clean package'
     options: '-B'
     PublishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
