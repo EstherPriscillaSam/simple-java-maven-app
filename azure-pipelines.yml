@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: PrivateAgent
+  name: MyNewPrivatePool
   demands:
     - agent.name -equals LAPTOP-P6MF1LBB
   vmImage: ubuntu-latest
